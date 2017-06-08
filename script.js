@@ -42,6 +42,10 @@ $(document).ready(function(){
                     $('#expressView').prepend(expressImage);
                     expressImage.on('click', playGif);
                     
+                     var rating = results[j].rating;
+                            // console.log(rating);
+                        var displayRated= $('<p>').text("Rating: " + rating);
+                        $('#expressView').prepend(displayRated);
             
                 } //for loop
         }); 
