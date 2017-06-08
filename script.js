@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    var emotions = ['Happy', 'Sassy', 'Frightened', 'Laughing', 'Scared', 'Mind Blown', 'Hungry', 'Confused'];
+    var emotions = ['Happy', 'Frightened', 'Laughing', 'Scared', 'Confused'];
 
   //  create emotions array buttons
     function buttons(){
